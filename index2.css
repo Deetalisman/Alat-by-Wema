@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+section {
+  width: 90%;
+  margin: 3% 5%;
+}
+section a img {
+  width: 17px;
+  height: 17px;
+}
+.top {
+  text-align: center;
+  margin-top: 1rem;
+}
+.top img {
+  width: 50px;
+}
+.top p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+form {
+  margin-top: 10%;
+}
+label {
+  font-size: 14px;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  margin-top: 3px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin-bottom: 25px;
+  color: black;
+  outline: none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+form p {
+  text-align: right;
+  color: crimson;
+  font-size: 12px;
+}
+a button {
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  margin-top: 20px;
+  background-color: crimson;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.passage {
+  margin-top: 3%;
+  font-size: 12px;
+}
+.passage span {
+  color: crimson;
+}
+.one {
+  margin-bottom: 10px;
+}
+.passage p {
+  line-height: 22px;
+}

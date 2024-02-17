@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  font-family: sans-serif;
+}
+section {
+  margin: 5% 2% 0;
+}
+.top {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+}
+.top img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+#pone {
+  font-size: 17px;
+  margin-top: 12px;
+}
+#ptwo {
+  font-size: 19px;
+  color: crimson;
+}
+.two {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  margin-top: 1.1rem;
+  scroll-behavior: smooth;
+  animation: fade-in 3s infinite;
+}
+.two img {
+  width: 100%;
+  height: 240px;
+  margin-top: 1rem;
+  scroll-snap-align: start;
+}
+.button {
+  margin: 0 5%;
+  margin-top: 10px;
+  color: white;
+}
+.buuton a button {
+  color: crimson;
+}
+#log {
+  width: 100%;
+  height: 35px;
+  font-size: 13px;
+  background-color: transparent;
+  border: 1px solid crimson;
+  border-radius: 6px;
+}
+#log {
+  text-decoration: none;
+  color: crimson;
+  cursor: pointer;
+}
+#get {
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  margin-top: 12px;
+  background-color: crimson;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+#get a {
+  text-decoration: none;
+  color: white;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.footimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.footimg p {
+  margin-top: 7px;
+  font-size: 12px;
+}
+.feet {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 11px;
+}

@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  width: 94%;
+  margin: 0 3%;
+}
+.top {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 60%;
+  z-index: 2;
+}
+.top img {
+  width: 23px;
+  height: 23px;
+  margin-right: 25px;
+}
+.topl {
+  display: flex;
+}
+.topl img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.top p {
+  margin-top: 5px;
+  margin-left: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.two {
+  display: flex;
+  justify-content: space-between;
+  color: crimson;
+}
+.two p {
+  margin-top: 50px;
+  font-size: 12px;
+}
+.two p a {
+  color: crimson;
+}
+.card {
+  background-color: crimson;
+  color: white;
+  padding: 8px 12px;
+  margin-top: 5%;
+  border-radius: 7px;
+}
+.cone {
+  display: flex;
+  justify-content: space-between;
+  line-height: 20px;
+}
+.coner {
+  text-align: right;
+}
+.bal {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.acc {
+  font-size: 16px;
+  font-weight: bold;
+}
+.conel p:first-child,
+.coner p:first-child {
+  font-size: 12px;
+}
+.conel p:last-child,
+.coner p:last-child {
+  font-size: 12px;
+}
+.cone2 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 22px;
+  margin-top: 20px;
+}
+.cone3 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.cone3 button {
+  width: 45%;
+  height: 32px;
+  font-size: 12px;
+  margin-top: 3px;
+  background-color: rgb(173, 18, 49);
+  border: none;
+  border-radius: 6px;
+}
+.cone3 button a {
+  text-decoration: none;
+  color: white;
+}
+.three {
+  display: flex;
+  justify-content: space-between;
+  color: crimson;
+  margin-top: 9%;
+  font-size: 12px;
+}
+.three p a {
+  color: crimson;
+}
+.four {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.four i {
+  text-align: center;
+  font-size: 20px;
+}
+.icon1,
+.icon2,
+.icon3 {
+  text-align: center;
+  height: 45px;
+  width: 43px;
+  border-radius: 50%;
+  padding-top: 13px;
+  margin-left: 12px;
+}
+.icon1 {
+  /* background-color: rgb(237, 179, 198); */
+  background-color: rgba(139, 39, 17, 0.2);
+  color: palevioletred;
+}
+.icon2 {
+  background-color: rgb(236, 236, 175);
+  color: rgb(191, 191, 20);
+}
+.icon3 {
+  background-color: rgb(239, 168, 168);
+  color: rgb(227, 40, 40);
+}
+.four1 h1 {
+  background-color: rgb(240, 231, 157);
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+  font-size: 19px;
+}
+.four1 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.four2 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.four3 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.four2 h1 {
+  background-color: rgb(231, 231, 114);
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+  font-size: 19px;
+}
+.four3 h1 {
+  background-color: rgb(235, 177, 177);
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+  font-size: 19px;
+}
+.done {
+  color: rgb(59, 160, 59);
+}
+.five {
+  margin-top: 5%;
+  padding: 15px 30px 15px 20px;
+  box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(245, 245, 245),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+}
+.brown {
+  position: relative;
+}
+.range {
+  color: green;
+  background-color: green;
+  width: 100%;
+}
+/* #grey {
+  width: 330px;
+  height: 13px;
+  background-color: rgb(190, 184, 184);
+  border-radius: 10px;
+  border: 0;
+}
+#green {
+  width: 280px;
+  height: 13px;
+  background-color: rgb(52, 189, 52);
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border-radius: 10px;
+  border: 0;
+} */
+.five1 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: crimson;
+}
+.five2 {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+}
+.five3 {
+  margin-top: 8px;
+  text-align: right;
+  color: crimson;
+  font-size: 12px;
+}
+.last {
+  width: 95%;
+  margin: 30px 2%;
+}
+.up {
+  font-size: 16px;
+  margin-top: 5%;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.lastpic {
+  text-align: center;
+}
+.lastpic img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+.images p {
+  font-size: 12px;
+}
+.images {
+  border: 1px solid crimson;
+  margin-bottom: 5%;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.feet {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  bottom: 0;
+}
+.feet1 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+.feet1 p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+.foot {
+  font-size: 20px;
+  margin-top: 10%;
+}
+.pic {
+  color: gray;
+}
+.fpic {
+  color: rgb(241, 49, 88);
+}

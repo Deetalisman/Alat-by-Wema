@@ -11,6 +11,85 @@ body {
 section {
   margin: 0 3%;
 }
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+aside {
+  margin-top: 20px;
+  padding: 0 3%;
+  display: none;
+}
+aside article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding: 10px;
+}
+aside article p {
+  margin-top: 12px;
+  margin-left: 15px;
+  color: crimson;
+  font-size: 15px;
+}
+article {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(245, 245, 245),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.1);
+}
+.into {
+  color: rgb(197, 196, 196);
+  margin-right: 20px;
+  font-size: 23px;
+}
+.artdiv {
+  margin-top: 40px;
+  position: relative;
+}
+.artdiv main {
+  display: flex;
+}
+.icon1a {
+  text-align: center;
+  height: 45px;
+  width: 43px;
+  border-radius: 10px;
+  padding-top: 13px;
+  margin-left: 10px;
+}
+.icon1a {
+  /* background-color: rgb(237, 179, 198); */
+  background-color: rgba(139, 39, 17, 0.2);
+  color: palevioletred;
+}
+#Back {
+  height: 20px;
+  width: 20px;
+}
+.userinfo {
+  text-align: center;
+}
+.userinfo p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.user {
+  width: 120px;
+  margin-top: 30px;
+}
+
+.logout {
+  width: 100%;
+  background-color: rgb(173, 18, 49);
+  border: 0;
+  border-radius: 6px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
 .top {
   position: fixed;
   width: 100%;

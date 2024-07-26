@@ -423,6 +423,7 @@ article {
   margin-top: 20px;
   background-color: white;
   bottom: 0;
+  border-top: 3px solid rgb(234, 159, 174);
 }
 .feet1 {
   display: flex;
@@ -451,11 +452,16 @@ article {
 #goal-section {
   margin: 0;
 }
+#loan-section,
+#card-section,
+#goal-section {
+  overflow: hidden;
+}
 #payment-section {
   padding-bottom: 14px;
 }
 .paysec {
-  background-color: crimson;
+  background-color: rgb(173, 18, 49);
   height: 68px;
   text-align: center;
   padding-top: 35px;
@@ -503,22 +509,23 @@ figure {
   font-size: 15px;
 }
 .loanopt img {
-  width: 80px;
+  width: 70px;
   margin-bottom: 10px;
 }
 .loanopt p span {
   color: crimson;
   cursor: pointer;
+  font-size: 12px;
 }
 .loanopt button {
-  background-color: crimson;
+  background-color: rgb(173, 18, 49);
   border: 0;
   width: 100%;
-  padding: 20px;
+  padding: 17px;
   margin-top: 20px;
   border-radius: 5px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
 }
 #card-section figure {

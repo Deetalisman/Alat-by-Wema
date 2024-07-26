@@ -11,6 +11,9 @@ body {
 section {
   margin: 0 3%;
 }
+/* #section {
+  display: none;
+} */
 .show {
   display: block;
 }
@@ -442,8 +445,14 @@ article {
 .fpic {
   color: rgb(241, 49, 88);
 }
-#payment-section {
+#payment-section,
+#loan-section,
+#card-section,
+#goal-section {
   margin: 0;
+}
+#payment-section {
+  padding-bottom: 14px;
 }
 .paysec {
   background-color: crimson;
@@ -463,6 +472,7 @@ figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .payopt {
   width: 48%;
@@ -476,8 +486,41 @@ figure {
 .pop {
   color: crimson;
   font-size: 15px;
+  margin-top: 10px;
 }
 .pop1 {
   font-size: 12px;
   margin-top: 13px;
+}
+.payopt i {
+  color: crimson;
+  font-size: 22px;
+}
+.loanopt {
+  text-align: center;
+  margin: 0 3%;
+  margin-top: 20vh;
+  font-size: 15px;
+}
+.loanopt img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.loanopt p span {
+  color: crimson;
+  cursor: pointer;
+}
+.loanopt button {
+  background-color: crimson;
+  border: 0;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+#card-section figure {
+  margin-top: 20px;
 }

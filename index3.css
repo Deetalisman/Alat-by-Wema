@@ -21,11 +21,12 @@ aside {
   margin-top: 20px;
   padding: 0 3%;
   display: none;
+  padding-bottom: 70px;
 }
 aside article {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 19px;
   border-radius: 10px;
   padding: 10px;
 }
@@ -79,7 +80,9 @@ article {
   width: 120px;
   margin-top: 30px;
 }
-
+footer {
+  margin-top: 1.9rem;
+}
 .logout {
   width: 100%;
   background-color: rgb(173, 18, 49);
@@ -167,7 +170,7 @@ article {
 }
 .bal {
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 5px;
 }
 .acc {
@@ -438,4 +441,43 @@ article {
 }
 .fpic {
   color: rgb(241, 49, 88);
+}
+#payment-section {
+  margin: 0;
+}
+.paysec {
+  background-color: crimson;
+  height: 68px;
+  text-align: center;
+  padding-top: 35px;
+  color: white;
+  font-size: 16px;
+}
+.what {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+figure {
+  padding: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.payopt {
+  width: 48%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(245, 245, 245),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.1);
+  padding: 5%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-bottom: 13%;
+}
+.pop {
+  color: crimson;
+  font-size: 15px;
+}
+.pop1 {
+  font-size: 12px;
+  margin-top: 13px;
 }

@@ -25,6 +25,7 @@ aside {
   padding: 0 3%;
   display: none;
   padding-bottom: 70px;
+  overflow: auto;
 }
 aside article {
   display: flex;
@@ -51,6 +52,7 @@ article {
 .artdiv {
   margin-top: 40px;
   position: relative;
+  margin-bottom: 3rem;
 }
 .artdiv main {
   display: flex;
@@ -84,7 +86,10 @@ article {
   margin-top: 30px;
 }
 footer {
-  margin-top: 1.9rem;
+  /* margin-top: 1.9rem; */
+  position: fixed;
+  width: 93%;
+  bottom: 1rem;
 }
 .logout {
   width: 100%;
@@ -94,7 +99,89 @@ footer {
   height: 50px;
   color: white;
   font-size: 16px;
+}
+#Backs,
+#Backss {
+  width: 25px;
+  height: 25px;
+}
+#view-section {
+  display: flex;
+}
+.viewsec {
+  background-color: rgb(173, 18, 49);
+  height: 68px;
+  text-align: center;
+  padding: 0 3%;
+  padding-top: 33px;
+  color: white;
+  font-size: 16px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.viewopt {
+  margin-top: 30px;
+  padding: 0 3%;
+}
+.viewopt article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+  border-radius: 7px;
+}
+.viewopt article main {
+  display: flex;
+}
+.viewopt article main p {
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  color: crimson;
+}
+.viewopt article .into {
+  margin-top: 0.5rem;
+}
+.viewopt2 {
+  margin: 0 3%;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.viewopt21 {
+  display: flex;
+  justify-content: space-between;
+}
+.cov {
+  font-size: 17px;
+}
+.cvo {
+  color: crimson;
+  font-size: 15px;
+}
+.viewopt22 {
+  margin-top: 30px;
+}
+.viewopt22 article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+  border-radius: 7px;
+}
+.viewopt22 article main {
+  display: flex;
+}
+.viewopt22 article main p:first-child {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  color: crimson;
+  font-size: 16px;
+}
+.viewopt22 article .into {
+  margin-top: 0.5rem;
+}
+.vamp2 {
+  font-size: 13px;
+  margin-left: 1rem;
+  margin-top: 3px;
 }
 .top {
   position: fixed;
@@ -449,7 +536,8 @@ article {
 #payment-section,
 #loan-section,
 #card-section,
-#goal-section {
+#goal-section,
+#view-sect {
   margin: 0;
 }
 #loan-section,
@@ -491,7 +579,7 @@ figure {
 }
 .pop {
   color: crimson;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 10px;
 }
 .pop1 {
